@@ -1,0 +1,58 @@
+.landingcontainer {
+    background-color: var(--color-black);
+    position: relative;
+    max-height: 100vh;
+    overflow: hidden;
+}
+
+.wrapperLanding {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 450px;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.heading2 {
+    color: var(--color-purple-100);
+    margin: 1rem;
+}
+
+.logo {
+    height: 112px;
+    width: 126px;
+    align-self: center;
+    margin: 1rem;
+}
+
+.box {
+    
+    background: linear-gradient(180deg, rgba(244, 10, 151, 0) 0%, rgba(99, 4, 143, 0.48) 100%);
+}
+
+.circle1 {
+    float: left;
+    width: 279px;
+    height: 279px;
+    shape-outside: circle(50% at 0%);
+    clip-path: circle(50% at 0%);
+    background: rgba(169, 38, 143, 0.1);
+    position: absolute;
+}
+
+.heading3 {
+    color: var(--color-white);
+    margin: 1rem;
+    padding: 0 25px;
+}
+
+.circle2 {
+    float: right;
+    width: 263px;
+    height: 263px;
+    margin-top: 50px;
+    shape-outside: circle(25% at 0%);
+    clip-path: circle(50% at 100%);
+    background: rgba(169, 38, 143, 0.1);
+}

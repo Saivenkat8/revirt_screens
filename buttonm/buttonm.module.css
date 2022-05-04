@@ -1,0 +1,67 @@
+.loginButtonMobile {
+    background-color: transparent;
+    border: 1px solid var(--color-purple-100);
+    border-radius: 4px;
+    color: var(--color-white);
+    height: 36px;
+    box-sizing: border-box;
+    width: 268px;
+    margin: 1rem 0;
+    padding: 0.20rem 1.125rem !important;
+    align-self: center;
+}
+
+.loginButtonMobile:hover {
+    background-color: var(--color-dark-purple-200);
+    transform: scale(1.03, 1.15);
+}
+
+.signupButtonMobile {
+    background-color: var(--color-purple-100);
+    border: 1px solid var(--color-purple-100);
+    color: var(--color-white);
+    height: 36px;
+    box-sizing: border-box;
+    width: 268px;
+    border-radius: 4px;
+    margin: 1rem 0;
+    padding: 0.20rem 1.125rem !important;
+    align-self: center;
+}
+
+.signupButtonMobile:hover {
+    border: 1px solid var(--color-purple-100);
+    background-color: var(--color-dark-purple-200);
+    transform: scale(1.03, 1.15);
+}
+
+.topcreateButton {
+    cursor: pointer;
+    transition: all;
+    margin: 6px;
+    transition-timing-function: ease-out;
+    transition-duration: 200ms;
+    border: 1px solid var(--color-purple-100);
+    background-color: var(--color-purple-100);
+    color: var(--color-white);
+    padding: 0.25rem 0.5rem !important;
+    box-sizing: border-box;
+    border-radius: 8px;
+    height: 30px;
+    width: 85px;
+}
+
+.botcreateButton {
+    cursor: pointer;
+    transition: all;
+    transition-timing-function: ease-out;
+    transition-duration: 200ms;
+    color: var(--color-white);
+    padding: 0.25rem 0.5rem !important;
+    width: 140px;
+    height: 38px;
+    background: #6B1B5B;
+    border: 1px solid #C620A7;
+    box-sizing: border-box;
+    border-radius: 2px;
+}

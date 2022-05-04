@@ -1,0 +1,108 @@
+.container {
+    background-color: var(--color-black);
+    position: relative;
+    height: 100vh;
+}
+
+.heading {
+    color: var(--color-white);
+    margin: 1rem;
+    align-self: center;
+    margin-right: 8rem;
+}
+
+.heading2 {
+    color: var(--color-white);
+    margin: 1rem;
+    align-self: center;
+}
+
+.heading3 {
+    color: var(--color-white);
+    margin-bottom: 1rem;
+}
+
+.heading4 {
+    color: var(--color-silver-300);
+    margin: 0.75rem 0;
+}
+
+.heading5 {
+    color: var(--color-red);
+    margin: 10px;
+    align-self: center;
+    margin-bottom: 80px;
+}
+
+.heading6 {
+    color: var(--color-silver-300);
+    margin: 0.75rem 2rem;
+}
+
+.mobileui {
+    display: flex;
+    flex-direction: column;
+    background: var(--color-black-300);
+    margin: 0 auto;
+    max-width: 450px;
+    padding-bottom: 40px;
+}
+
+.headingSection {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.backbtn {
+    background-color: transparent;
+    outline: none;
+    border: none;
+    color: var(--color-white);
+    width: 8px;
+}
+
+.circle {
+    width: 160px;
+    height: 160px;
+    background: var(--color-silver-300);
+    border-radius: 50%;
+    align-self: center;
+    margin: 0.75rem;
+}
+
+.scircle {
+    width: 80px;
+    height: 80px;
+    background: var(--color-grey-500);
+    border-radius: 50%;
+    margin: 1rem;
+}
+
+.border {
+    border: 1px solid var(--color-black);
+    margin: 1rem 0;
+    height: 0px;
+}
+
+.info {
+    text-align: center;
+}
+
+.field {
+    max-width: 325px;
+    height: 36px;
+    border: 1px solid var(--color-silver-300);
+    box-sizing: border-box;
+    border-radius: 4px;
+    padding: 0.5rem 1rem;
+    background: none;
+    margin: 0 2rem;
+    color: var(--color-white);
+}
+
+.field::placeholder {
+    font-style: normal;
+    color: var(--color-white);
+}

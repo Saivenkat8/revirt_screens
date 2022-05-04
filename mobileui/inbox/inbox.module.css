@@ -1,0 +1,223 @@
+
+
+.container {
+    background-color: var(--color-black-300);
+    position: relative;
+    height: 100vh;
+}
+
+.heading {
+    color: var(--color-white);
+    margin: 1rem;
+    align-self: center;
+    flex: 8;
+}
+
+.mobileui {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 450px;
+}
+
+.headingSection {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 1rem;
+}
+
+.backbtn {
+    background-color: transparent;
+    outline: none;
+    border: none;
+    color: var(--color-white);
+    width: 8px;
+    flex: 1;
+}
+
+.field {
+    width: 400px;
+    height: 32px;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    background: rgba(255, 255, 255, 0.2);
+    margin: 1rem;
+    margin-top: 0rem;
+}
+
+.field::placeholder {
+    font-style: normal;
+    color: var(--color-white);
+}
+
+.searchbar {
+    display: flex;
+    flex-direction: row;
+}
+
+.searchIcon {
+    position: absolute;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    color: var(--color-white);
+    width: 8px;
+    right: 36px;
+    margin-top: 0.5rem;
+}
+
+
+
+.space_options_conatiner {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    cursor: pointer;
+    margin: 1rem;
+    margin-top: 0rem;
+    
+}
+
+.space_options_conatiner > p {
+    color: var(--color-silver-300);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.active_option {
+    color: var(--color-white) !important;
+}
+
+.bottom_line {
+    margin-top: 0.25rem;
+    width: 1rem;
+    height: 6px;
+    border-radius: 4px;
+    background-color: var(--color-white);
+}
+
+.users_info_container {
+    flex: 1;
+    overflow-y: scroll;
+}
+
+.users_info_container::-webkit-scrollbar {
+    display: none;
+}
+
+.users_list {
+    list-style-type: none;
+    height: 21rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.user_list_item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0.25rem 1rem;
+}
+
+.user_list_item_profile {
+    height: 36px;
+    width: 36px;
+    border-radius: 50%;
+    background-color: var(--color-silver-200);
+}
+
+.user_list_item_info {
+    margin-left: 1rem;
+    flex: 12;
+}
+
+.user {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0.25rem 0;
+    color: var(--color-silver-300);
+}
+
+.activeuser {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0.25rem 0;
+    color: var(--color-white);
+}
+
+.dots {
+    background-color: transparent;
+    outline: none;
+    border: none;
+    width: 8px;
+    margin-right: 1rem !important;
+    flex: 0.5;
+}
+
+.channelicon {
+    background-color: transparent;
+    outline: none;
+    border: none;
+    width: 8px;
+    margin-right: 1rem !important;
+    flex: 0.5;
+    flex: 3;
+}
+
+.heading6 {
+    color: var(--color-silver-300);
+    margin: 1rem;
+}
+
+.createchannel {
+    color: var(--color-purple-100);
+    margin-right: 1rem;
+}
+
+.admin {
+    width: 34px;
+    height: 11px;
+    background: rgba(255, 199, 0, 0.4);
+    border-radius: 11.5px;
+    margin-left: 0.25rem;
+    text-align: center;
+    color: var(--color-white);
+}
+
+.guest {
+    width: 34px;
+    height: 11px;
+    background: rgba(104, 169, 38, 0.4);
+    border-radius: 11.5px;
+    margin-left: 0.25rem;
+    text-align: center;
+    color: var(--color-white);
+}
+
+.scircle {
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+    background-color: var(--color-purple-100);
+    margin-right: 10px;
+    margin-top: 6px;
+}
+
+.footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    height: 56px;
+    margin: 0 auto;
+    background: var(--color-black-300);
+}

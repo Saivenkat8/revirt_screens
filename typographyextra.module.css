@@ -1,0 +1,36 @@
+.text_style_normal8 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 8px;
+    line-height: 12px;
+}
+
+.text_style_normal9 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 6px;
+    line-height: 9px;
+}
+
+.text_style_medium2 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.text_style_semibold3 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 42px;
+}
+
+.text_style_semibold4 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+/* --color-grey-700: #4B4B4B; */
