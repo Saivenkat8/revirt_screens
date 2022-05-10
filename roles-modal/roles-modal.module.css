@@ -1,0 +1,110 @@
+.roles_modal {
+    position: fixed;
+    bottom: 0;
+    background: #202020;
+    display: flex;
+    flex-direction: column;
+    border-radius: 16px 16px 0px 0px;
+    width: 100%;
+    outline: none;
+    border: none;
+    color: var(--color-white);
+}
+
+.profile {
+    display: flex;
+    flex-direction: row;
+    margin: 1rem;
+}
+
+.profile_img {
+    width: 63px;
+    height: 63px;
+    border-radius: 50%;
+    background: #C4C4C4;
+}
+
+.profile_info {
+    margin-left: 1rem;
+    padding-top: 10px;
+    color: var(--color-white);
+}
+
+.level {
+    margin-top: 2px;
+    color: var(--color-silver-300);
+}
+
+.section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.option {
+    padding: 0.5rem;
+    box-shadow: inset 0px 0px 40px rgba(0, 0, 0, 0.4);
+    margin: 0.5rem 0;
+    padding-left: 1.5rem;
+}
+
+.heading {
+    color: var(--color-purple-100);
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+}
+
+.heading2 {
+    margin-left: 1rem;
+}
+
+.role {
+    width: 48px;
+    height: 16px;
+    background: var(--color-dark-purple-200);
+    border-radius: 11.5px;
+    text-align: center;
+    color: var(--color-white);
+    padding-top: 0.125rem;
+}
+
+.label_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 0.25rem;
+}
+
+.scircle {
+    width: 16px;
+    height: 16px;
+    background: var(--color-dark-purple-200);
+    border-radius: 11.5px;
+    margin-left: 0.5rem;
+}
+
+.save_changes_btn {
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    height: 1.375rem;
+    width: 3.375rem;
+    transition: all;
+    transition-timing-function: ease-out;
+    transition-duration: 200ms;
+    background-color: var(--color-purple);
+    color: var(--color-white);
+    margin-right: 0.75rem;
+}
+
+
+.cancel_changes_btn {
+    border: none;
+    outline: none;
+    transition: all;
+    transition-timing-function: ease-out;
+    transition-duration: 200ms;
+    background: none;
+    color: var(--color-purple);
+    margin-right: 0.75rem;
+}
